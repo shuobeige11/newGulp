@@ -1,0 +1,42 @@
+.act-dialog-wrapper {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.act-dialog {
+        position: absolute;
+        width:toRem(580px);
+        left:50%;
+        top:50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+    .act-header {
+       width:toRem(580px);
+       height:toRem(292px);
+       background:url(/images/conver.png) no-repeat;
+       background-size:toRem(580px) toRem(292px);
+       .act-header-tit{
+            padding-top:toRem(210px);
+            text-align:center;
+            font-size:toRem(30px);
+            color:#fff;
+            display:block
+       }
+    }
+.act-body{
+        margin:0 toRem(20px);
+        min-height:toRem(320px);
+        background:#fff7bc;
+        border-radius:0 0 8px 8px;
+    }
+

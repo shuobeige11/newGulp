@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import "./rest", "./dialog";
+
+
+
+.lm_content {
+    width: 100%;
+    background: #fbd439;
+    padding-bottom: toRem(40px)
+}
+
+.lm_banner {
+    background: url(/images/topban.jpg) no-repeat;
+    background-size: 100% auto;
+    height: toRem(735px);
+    position: relative;
+    a {
+        display: block;
+        width: toRem(450px);
+        height: toRem(84px);
+        line-height: toRem(84px);
+        border-radius: toRem(42px);
+        background: #ff7200;
+        text-align: center;
+        font-size: toRem(36px);
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: toRem(-225px)
+    }
+}
+
+.lm_box {
+    padding: toRem(25px) toRem(25px) toRem(5px) toRem(25px);
+    margin: toRem(44px) toRem(30px) 0 toRem(30px);
+    border: toRem(5px) solid #ecb02e;
+    border-radius: 6px;
+    background: #fff;
+    dd,
+    dt {
+        color: #666;
+        margin-bottom: 10px;
+        font-size: toRem(28px)
+    }
+}
+
+.act-form{
+    width:toRem(460px);
+    padding-top:toRem(50px);
+    margin:0 auto;
+    .invitecode{
+        padding:toRem(20px) toRem(15px);
+        border:1px solid #fe9812;
+        background:#fff7bc;
+        border-radius:6px
+    }
+}
+.input-txt{
+    border:0;
+    width:100%;
+    background:#fff7bc;
+    font-size:toRem(28px)
+}
+.act-error{
+    padding-left:toRem(15px);
+    height:toRem(44px);
+    line-height:toRem(44px);
+    color:#9d0407;
+    font-size:toRem(28px);
+    margin-bottom:toRem(16px);
+    span{
+        display:none
+    }
+}
+.act-btn{
+    display:block;
+    text-align:center;
+    width:100%;
+    background:#fe9812;
+    height:toRem(80px);
+    line-height:toRem(80px);
+    border:0;
+    font-size:toRem(30px);
+    color:#fff;
+    border-radius:6px
+}
+
+
+

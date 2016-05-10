@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    <title>缤纷嘻哈季-出游保险0元购</title>
+    <link type="stylesheet" href="css/list.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <section class="lm_content">
+        <section class="lm_banner"></section>
+        <section class="lm_box">
+            <dl>
+                <dt>投保人信息</dt>
+                <dd>
+                    <span class="lm_lab">投保人姓名</span>
+                    <div class="lm_txt">
+                        <input type="text" name="name1" class="textbox" placeholder="请输入投保人姓名"/>
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">身份证号</span>
+                    <div class="lm_txt">
+                        <input type="text" name="IDcard" class="textbox" placeholder="请输入18位身份证号码" maxlength="18"/>
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">手机号码</span>
+                    <div class="lm_txt">
+                        <input type="text" name="phone" class="textbox" placeholder="请输入11位有效手机号码" maxlength="11"/>
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">电子邮箱</span>
+                    <div class="lm_txt">
+                        <input type="text" name="Email" class="textbox" placeholder="请输入邮箱(选填)"/>
+                    </div>
+                </dd>
+            </dl>
+            <dl>
+                <dt>投保人信息</dt>
+                <dd>
+                    <span class="lm_lab">被保人姓名</span>
+                    <div class="lm_txt">
+                        <input type="text" name="name2" class="textbox" placeholder="请输入被保人姓名"/>
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">性别</span>
+                    <div class="lm_txt">
+                        <label class="sex"><input type="radio" name="sex" class="s-radio" value="man" checked/><em>男</em></label><label class="sex"><input type="radio" class="s-radio" name="sex" value="woman"/><em>女</em></label>
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">出生年月</span>
+                    <div class="lm_txt">
+                        <input type="date" name="birthday" class="textbox" />
+                    </div>
+                </dd>
+                 <dd>
+                    <span class="lm_lab">身份证号码</span>
+                    <div class="lm_txt">
+                        <input type="text" name="IDcard1" class="textbox" placeholder="选填" maxlength="18"/>
+                    </div>
+                </dd>
+            </dl>
+            <div class="btn">
+                <a href="javascript:void(0)" class="lm_btn">提交</a>
+            </div>
+        </section>
+    </section>
+    <div class="act-dialog-wrapper hide">
+        <div class="act-dialog">
+            <header class="act-header">
+                <span class="act-header-tit">提交成功</span>
+            </header>
+            <section class="act-body">
+                <div class="act-form">
+                    <div class="act-item">
+                      <div class="invitecode">
+                            提交成功后2到3个工作日内将会<br/>收到保单生效短信，请用户注意查收！
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="act-btn">查看更多孩子王保险产品</a>
+                    <div class="act-info">
+                        感谢您选择孩子王保险，孩子王保险—与您共同分担家的责任
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+    function _adaptFont(e, t, n) {
+        e = 750,
+            t = 320,
+            n = 16;
+        var i = parseInt(window.innerWidth),
+            d = parseInt(document.documentElement.clientWidth),
+            a = parseInt(document.body.clientWidth),
+            d = Math.min(i, a, d);
+        d > e && (d = e),
+            t > d && (d = t),
+            document.documentElement.style.fontSize = d / t * n + "px"
+    }
+    _adaptFont();
+    </script>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

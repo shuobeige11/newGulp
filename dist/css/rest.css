@@ -1,0 +1,41 @@
+html,
+body,
+div,
+section,
+header,
+input,
+span,
+ul,
+li,
+dl,
+dd,
+p {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  min-width: 300px;
+  max-width: 750px;
+  margin: 0 auto;
+  -webkit-tap-highlight-color: transparent;
+  color: #666; }
+
+html, body {
+  height: 100%; }
+
+input, button {
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.hide {
+  display: none; }
+
+.error {
+  color: #f00; }
